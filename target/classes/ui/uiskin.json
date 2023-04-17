@@ -1,0 +1,89 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    font: {
+      file: font/font22.fnt
+    },
+    big-font: {
+      file: font/font30.fnt
+    }
+  },
+  com.badlogic.gdx.graphics.Color: {
+    white: { a: 1, b: 1, g: 1, r: 1 }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: {
+      font: font
+    },
+    big: {
+      font: big-font
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      font: font,
+      up: blue_button
+      down: blue_button_down,
+      pressedOffsetX: 1,
+      pressedOffsetY: -1
+    },
+    red: {
+      font: font,
+      up: red_button,
+      down: red_button_down,
+      pressedOffsetX: 1,
+      pressedOffsetY: -1
+    },
+    green: {
+      font: font,
+      up: green_button,
+      down: green_button_down,
+      pressedOffsetX: 1,
+      pressedOffsetY: -1
+    },
+    default-big: {
+      font: big-font,
+      up: blue_button,
+      down: blue_button_down,
+      pressedOffsetX: 1,
+      pressedOffsetY: -1
+    },
+    red-big: {
+      font: big-font,
+      up: blue_button,
+      down: red_button_down,
+      pressedOffsetX: 2,
+      pressedOffsetY: -2
+    },
+    green-big: {
+      font: big-font,
+      up: blue_button,
+      down: green_button_down,
+      pressedOffsetX: 2,
+      pressedOffsetY: -2
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+    default: {
+      background: window,
+      titleFont: big-font,
+      titleFontColor: white
+    }
+  },
+
+  com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    default: {
+      hScroll: panel,
+      hScrollKnob: panel,
+      vScroll: panel,
+      vScrollKnob: panel
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    default: {
+      vScroll: vScroll,
+      vScrollKnob: vScrollKnob
+      hScrollKnob: hScrollKnob,
+      hScroll: hScroll,
+    }
+  }
+}

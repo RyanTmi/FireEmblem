@@ -1,0 +1,67 @@
+Guide Fire Emblem
+
+Organisation du jeu :
+Chacun leur tour les joueurs vont deplacer leurs unitées sur le plateau. La dernière armée encore vivante à la fin de la
+partie gagne.
+
+Organisation d'un tour :
+Le joueur peut effectuer differentes actions avec chacunes de ses unitées dans l'ordre qu'il souaite. Les 4 actions
+possibles sont :
+- passer son tour.
+- se deplacer. Les cases où l'unitée peut se deplacer sans qu'une unitée adverse puisse l'attaquer sont marquées en bleu,
+celles où l'unitée peut se déplacer mais qu'elle peut ensuite se faire attaquer par un adversaire sont marquées en rouge,
+les cases verte marquent la position d'unité alliées.
+- attaquer. (voir partie combats)
+- soigner un allié. Seules les unitées utilisant un bâton peuvent soigner leurs alliées.
+(Il est possible de se deplacer ET d'attaquer ou soigner)
+Si une unitée n'a ni attaqué ni soigné il est possible d'annuler son action.
+
+Les combats :
+Lorsqu'une unitée est sélectionnée et placée sur une unitée ennemie dans son champ de déplacement une prévision des
+conséquence du combat s'affiche. Les dégats d'une unitée sont calculés comme la différence de la défense du défenseur
+avec la somme de la force et de la puissance de l'arme de l'assaillant, des bonus peuvent s'ajouter à ces dommages
+comme le bonus du triangle des armes ou du spécial. (lors du calcule des dommages la défense est remplacé par la
+résistance en cas d'attaque avec une arme magique.)
+
+Le spécial correspond à une capacitée qui vient augmenter ou réduire les dégats d'une unitées. Chaque coup que reçoit
+ou que donne l'unitée fait baisser son compteur de spécial de 1. Lorque le compteur de l'unitée tombe a 0 le spécial
+s'active.
+
+Lorsqu'une unitée est attaquée et que son arme a une portée qui le permet, elle riposte, l'unité attaqué va attaquer son
+assaillant après s'être fait attaquer.
+Si la vitesse d'une unitée est superieur de 5 points à celle de son adversaire alors elle effectue une double frappe (elle
+attaquera une seconde fois son adversaire après que celui-ci ait riposter.)
+Lorsque les Points de Vie d'une unitée tombe à 0 elle meurt. (Si l'unitée meurt avant d'avoir pu riposter alors la riposte
+de l'unitée n'a pas lieu.)
+
+Les armes :
+Chaque armes à des caractéristiques de puissance(influe sur les dégats), poids(influe sur la vitesse)... en fontion de son
+type et de sa matière.
+
+Les armes ont des portées différentes :
+- L'épée, la lance et la hache ont une portée de 1 case.
+- L'arc et le bâton ont une portée de 2 cases.
+Le baton fait des dégats magiques (calcul de dommage avec la resistance). Les autres armes font des dégats physiques
+(calcul de dommage avec la défense).
+
+Le triangle des armes correspond a un bonus de dommage de +20% ou -20% en fonction des armes utilisées pendant le combat :
+- L'épée a l'avantage sur la hache.
+- La hache a l'avantage sur la lance.
+- La lance a l'avantage sur l'épée.
+Les arcs font 50% de dommage en plus aux unité volante.
+Les batons peuvent rendre de la vie aux alliées (dans la limite de leur PV max).
+
+Les unitées :
+Chaque unitée possède différentes caractéristiques de PV, attaque, defense, résistance, vitesse.
+L'arme que va utiliser l'unitée va faire varier ses caractéristiques lors d'un combat.
+
+Les unités ont différent type de déplacement :
+- Le déplacement d'infanterie. L'unitée ne peut pas aller sur les cases d'eau et montagne et est moyennement ralenti par
+les obstacles.
+- Le déplacement de cavalerie. L'unitée ne peut pas aller sur les cases d'eau et montagne se déplace rapidement et est
+fortement ralenti par les obstacles.
+- Le déplacement blindé. L'unitée ne peut pas aller sur les cases d'eau et montagne et se déplace lentement.
+- Le déplacement volant. Aucun obstacle n'arrète l'unitée qui se déplace rapidement.
+
+Les terrains :
+Les différents terrains peuvent donner des bonus lors du déplacement.

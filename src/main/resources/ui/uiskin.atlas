@@ -1,0 +1,102 @@
+
+uiskin.png
+size: 256, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+blue_button
+  rotate: false
+  xy: 203, 184
+  size: 50, 50
+  split: 15, 15, 15, 15
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+blue_button_down
+  rotate: false
+  xy: 153, 30
+  size: 50, 50
+  split: 15, 15, 15, 15
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+green_button
+  rotate: false
+  xy: 102, 30
+  size: 50, 50
+  split: 15, 15, 15, 15
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+green_button_down
+  rotate: false
+  xy: 153, 82
+  size: 50, 50
+  split: 15, 15, 15, 15
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+hScroll
+  rotate: false
+  xy: 102, 18
+  size: 50, 10
+  split: 5, 5, 2, 2
+  orig: 50, 10
+  offset: 0, 0
+  index: -1
+hScrollKnob
+  rotate: false
+  xy: 1, 2
+  size: 50, 10
+  split: 5, 5, 2, 2
+  orig: 50, 10
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 102, 134
+  size: 100, 100
+  split: 10, 10, 10, 10
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+red_button
+  rotate: false
+  xy: 102, 82
+  size: 50, 50
+  split: 15, 15, 15, 15
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+red_button_down
+  rotate: false
+  xy: 204, 132
+  size: 50, 50
+  split: 15, 15, 15, 15
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+vScroll
+  rotate: false
+  xy: 204, 80
+  size: 10, 50
+  split: 2, 2, 5, 5
+  orig: 10, 50
+  offset: 0, 0
+  index: -1
+vScrollKnob
+  rotate: false
+  xy: 215, 80
+  size: 10, 50
+  split: 2, 2, 5, 5
+  orig: 10, 50
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 1, 14
+  size: 100, 220
+  split: 10, 10, 30, 30
+  orig: 100, 220
+  offset: 0, 0
+  index: -1

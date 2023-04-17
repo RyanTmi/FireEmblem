@@ -1,0 +1,70 @@
+Fire Emblem Guide
+
+Game Organization:
+Players take turns moving their units around the board. The last army still alive at the end of the game win.
+
+Organization of a turn :
+The player can perform different actions with each of his units in the order he wishes. The 4 actions
+possible actions are :
+- pass his turn.
+- move. The squares where the unit can move without being attacked by an enemy unit are marked in blue,
+the squares where the unit can move but can be attacked by an opponent are marked in red,
+the green squares mark the position of allied units.
+- attack. (see combat section)
+- heal an ally.
+Only units using a stick can heal their allies.
+(It is possible to move AND to attack or heal)
+If a unit has neither attacked nor healed it is possible to cancel its action.
+
+Combat:
+When a unit is selected and placed on an enemy unit in its field of movement a forecast of the
+consequences of the fight is displayed. The damage of a unit is calculated as the difference between the defender's
+with the sum of the strength and power of the attacker's weapon, bonuses can be added to this damage
+like the bonus of the weapon triangle or the special. (when calculating the damage, the defense is replaced by the
+resistance in case of an attack with a magic weapon).
+
+The special corresponds to an ability that increases or reduces the damage of a unit.
+Each blow that the unit receives the unit lowers its special counter by 1.
+When the counter of the unit falls to 0 the special is activated.
+
+When a unit is attacked and its weapon has a range that allows it, it retaliates.
+attacker after being attacked.
+If a unit's speed is 5 points higher than its opponent's then
+it will perform a double strike (it will attack its opponent a second time after the opponent has returned fire).
+When a unit's Life Points drop to 0 it dies.
+(If the unit dies before it can retaliate, then the unit's retaliation does not take place).
+
+Weapons:
+Each weapon has different characteristics depending on its type and material:
+- Power (affects damage)
+- Weight (affects speed)
+
+The weapons have different ranges:
+- The sword, the spear and the axe have a range of 1 square.
+- The bow and the staff have a range of 2 squares.
+The staff does magic damage (damage calculation with resistance). The other weapons do physical damage
+(damage calculation with defense).
+
+The triangle of weapons has a damage bonus of +20% or -20% depending on the weapons used during the fight:
+- The sword has the advantage over the axe.
+- The axe has the advantage over the spear.
+- The spear has the advantage over the sword.
+Bows do 50% more damage to flying units.
+Sticks can restore life to allies (within their max HP).
+
+Units:
+Each unit has different characteristics of HP, attack, defense, resistance, speed.
+The weapon that the unit will use will vary its characteristics during a fight.
+
+The units have different types of movement:
+- Infantry movement.
+The unit can't move on water and mountain squares and is moderately slowed down by obstacles.
+- The cavalry move.
+The unit cannot move on the water and mountain squares,
+it moves quickly and is slowed down and is strongly slowed down by the obstacles.
+- Armored movement.
+The unit cannot move on water and mountain squares and moves slowly.
+- The flying move. No obstacles stop the unit which moves quickly.
+
+Terrain:
+The different terrains can give bonuses when moving.
